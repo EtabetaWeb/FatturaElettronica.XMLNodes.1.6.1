@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatturaElettronica.XMLNodes", "AppCode\FatturaElettronica.XMLNodes.csproj", "{89476287-8C89-4F38-A5CA-D3CBC9D9F891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89476287-8C89-4F38-A5CA-D3CBC9D9F891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B2957A1-8076-4D3B-B2C4-0F5B488CB104}
+	EndGlobalSection
+EndGlobal

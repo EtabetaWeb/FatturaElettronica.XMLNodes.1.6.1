@@ -5,6 +5,15 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatturaElettronica.XMLNodes", "AppCode\FatturaElettronica.XMLNodes.csproj", "{89476287-8C89-4F38-A5CA-D3CBC9D9F891}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentazione", "Documentazione", "{CFD1A840-FBFA-482B-88CD-56C6C25AEF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specifiche Tecniche", "Specifiche Tecniche", "{4E84F9F6-7388-4B4B-BAAC-D5567D4529FB}"
+	ProjectSection(SolutionItems) = preProject
+		Documentazione\Specifiche Tecniche\Allegato_A_Specifiche_tecniche_versione_1.5.pdf = Documentazione\Specifiche Tecniche\Allegato_A_Specifiche_tecniche_versione_1.5.pdf
+		Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_ordinaria_versione_1.5.xls = Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_ordinaria_versione_1.5.xls
+		Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_semplificata_versione_1.5.xls = Documentazione\Specifiche Tecniche\Rappresentazione_tabellare_tracciato__fattura_semplificata_versione_1.5.xls
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E84F9F6-7388-4B4B-BAAC-D5567D4529FB} = {CFD1A840-FBFA-482B-88CD-56C6C25AEF61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B2957A1-8076-4D3B-B2C4-0F5B488CB104}

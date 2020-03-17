@@ -6,3 +6,5 @@
 /AppCode/obj/Debug
 /.vs/FatturaElettronica.XMLNodes/v16/Server/sqlite3/db.lock
 /.vs/FatturaElettronica.XMLNodes/v16/Server/sqlite3
+/.vs
+/AppCode/obj

@@ -10,9 +10,9 @@ Libreria per la gestione dei nodi previsti nel formato **XML** (eXtensible Marku
 
 # Nota
 
-Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo, fare riferimento alla seguente tabella di branching:
+Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo dall'Agenzia delle Entrate, fare riferimento alla seguente tabella di branching:
 
-- **Master**: basato sulle specifiche tecniche della versione 1.5;
+- **Master**: basato sul documento "allegato A delle specifiche tecniche della versione 1.5";
 
 
 
@@ -20,10 +20,10 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo, f
 
 FatturaElettronica.XMLNodes può essere scaricato anche come package [NuGet](https://www.nuget.org/packages/FatturaElettronica.XMLNodes/). 
 
-Per installarlo è sufficiente utilizzare il seguente comando tramite il Package Manager:
+Per installarlo è sufficiente utilizzare il seguente comando tramite il Package Manager (sostituire le x con il valore appropriato della versione richiesta).
 
 ```c#
-PM> Install-Package FatturaElettronica.XMLNodes -Version 1.5.2
+PM> Install-Package FatturaElettronica.XMLNodes -Version 1.x.x
 ```
 
 Oppure, da riga di comando (CMD), con .NET Core:

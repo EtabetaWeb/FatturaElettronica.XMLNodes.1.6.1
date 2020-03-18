@@ -12,7 +12,7 @@ Libreria per la gestione dei nodi previsti nel formato **XML** (eXtensible Marku
 
 Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo dall'Agenzia delle Entrate, fare riferimento alla seguente tabella di branching:
 
-- **Master**: basato sul documento "allegato A delle specifiche tecniche della versione 1.5";
+- **Master**: basato sul documento "Allegato A - Specifiche Tecniche Versione 1.5";
 
 
 

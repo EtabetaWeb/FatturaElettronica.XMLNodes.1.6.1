@@ -8,3 +8,9 @@
 /.vs/FatturaElettronica.XMLNodes/v16/Server/sqlite3
 /.vs
 /AppCode/obj
+/CodiceEsempio/WinFormCShap/.vs/WinFormCShap/v16
+/CodiceEsempio/WinFormCShap/bin/Debug
+/CodiceEsempio/WinFormCShap/obj/Debug
+/CodiceEsempio/WinFormVB/.vs/WinFormVB/v16
+/CodiceEsempio/WinFormVB/bin/Debug
+/CodiceEsempio/WinFormVB/obj/Debug

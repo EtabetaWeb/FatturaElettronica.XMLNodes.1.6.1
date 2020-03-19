@@ -12,6 +12,25 @@ namespace WinFormCShap
             InitializeComponent();
         }
 
+        private void BtnEseguiCodice_Click(object sender, EventArgs e)
+        {
+            string dir;
+            string nomeFile;
+            dir = System.Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\";
+            nomeFile = "EsempioFileFatturaElettronica.xml";
+            TxtPercorsoFile.Text = dir + nomeFile;
+            if (genera_xml(dir, nomeFile) == false)
+            {
+                BtnEseguiCodice.Enabled = false;
+                BtnEseguiCodice.Text = "ATTENZIONE: si è verificato un errore!";
+            }
+            else
+            {
+                BtnEseguiCodice.Enabled = false;
+                BtnEseguiCodice.Text = "Il file è stato generato correttamente!";
+            }
+        }
+
         private bool genera_xml(string percorso, string nome_file)
         {
             bool esito = false;
@@ -58,8 +77,8 @@ namespace WinFormCShap
                 DatiAnagrafici datiAnagrafici_121 = new DatiAnagrafici();
                 // 1.2.1.1 <IdFiscaleIVA>
                 IdFiscaleIVA idFiscaleIVA_121 = new IdFiscaleIVA();
-                idFiscaleIVA_121.IdPaese = "";
-                idFiscaleIVA_121.IdCodice = "";
+                idFiscaleIVA_121.IdPaese = "IT";
+                idFiscaleIVA_121.IdCodice = "01234567890";
                 datiAnagrafici_121.IdFiscaleIVA = idFiscaleIVA_121;
                 // 1.2.1.2 <CodiceFiscale>
                 datiAnagrafici_121.CodiceFiscale = "";
@@ -155,10 +174,10 @@ namespace WinFormCShap
                 idFiscaleIVA_141.IdCodice = "";
                 datiAnagrafici_141.IdFiscaleIVA = idFiscaleIVA_141;
                 // 1.4.1.2 <CodiceFiscale>
-                datiAnagrafici_141.CodiceFiscale = "";
+                datiAnagrafici_141.CodiceFiscale = "09876543210";
                 // 1.4.1.3 <Anagrafica>
                 Anagrafica anagrafica_141 = new Anagrafica();
-                anagrafica_141.Denominazione = "";
+                anagrafica_141.Denominazione = "AMMINISTRAZIONE BETA";
                 anagrafica_141.Nome = "";
                 anagrafica_141.Cognome = "";
                 anagrafica_141.Titolo = "";
@@ -167,12 +186,12 @@ namespace WinFormCShap
                 cessionarioCommittente.DatiAnagrafici = datiAnagrafici_141;
                 // 1.4.2 <Sede>
                 Sede sede_142 = new Sede();
-                sede_142.Indirizzo = "";
-                sede_142.NumeroCivico = "";
-                sede_142.CAP = "";
-                sede_142.Comune = "";
-                sede_142.Provincia = "";
-                sede_142.Nazione = "";
+                sede_142.Indirizzo = "VIA TORINO";
+                sede_142.NumeroCivico = "38";
+                sede_142.CAP = "00145";
+                sede_142.Comune = "ROMA";
+                sede_142.Provincia = "RM";
+                sede_142.Nazione = "IT";
                 cessionarioCommittente.Sede = sede_142;
                 // 1.4.3 <StabileOrganizzazione>
                 StabileOrganizzazione stabileOrganiccazione_143 = new StabileOrganizzazione();
@@ -243,10 +262,10 @@ namespace WinFormCShap
                 // 2.1.1 <DatiGeneraliDocumento>
                 // ------------------------------------------------------------------------------------------
                 DatiGeneraliDocumento datiGeneraliDocumento = new DatiGeneraliDocumento();
-                datiGeneraliDocumento.TipoDocumento = "";
-                datiGeneraliDocumento.Divisa = "";
-                datiGeneraliDocumento.Data = "";
-                datiGeneraliDocumento.Numero = "";
+                datiGeneraliDocumento.TipoDocumento = "TD01";
+                datiGeneraliDocumento.Divisa = "EUR";
+                datiGeneraliDocumento.Data = "2017-01-18";
+                datiGeneraliDocumento.Numero = "123";
                 DatiRitenuta datiRitenuta = new DatiRitenuta();
                 datiRitenuta.TipoRitenuta = "";
                 datiRitenuta.ImportoRitenuta = "";
@@ -286,9 +305,9 @@ namespace WinFormCShap
                 // ------------------------------------------------------------------------------------------
                 DatiOrdineAcquisto datiOrdineAcquisto = new DatiOrdineAcquisto();
                 List<DatiOrdineAcquisto> datiOrdineAcquistoList = new List<DatiOrdineAcquisto>();
-                datiOrdineAcquisto.RiferimentoNumeroLinea = "";
-                datiOrdineAcquisto.IdDocumento = "";
-                datiOrdineAcquisto.Data = "";
+                datiOrdineAcquisto.RiferimentoNumeroLinea = "1";
+                datiOrdineAcquisto.IdDocumento = "66685";
+                datiOrdineAcquisto.Data = "2016-09-0";
                 datiOrdineAcquisto.NumItem = "";
                 datiOrdineAcquisto.CodiceCommessaConvenzione = "";
                 datiOrdineAcquisto.CodiceCUP = "";
@@ -581,23 +600,5 @@ namespace WinFormCShap
             return esito;
         }
 
-        private void BtnEseguiCodice_Click(object sender, EventArgs e)
-        {
-            string dir;
-            string nomeFile;
-            dir = System.Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\";
-            nomeFile = "EsempioFileFatturaElettronica.xml";
-            TxtPercorsoFile.Text = dir + nomeFile;
-            if (genera_xml(dir, nomeFile) == false)
-            {
-                BtnEseguiCodice.Enabled = false;
-                BtnEseguiCodice.Text = "ATTENZIONE: si è verificato un errore!";
-            }
-            else
-            {
-                BtnEseguiCodice.Enabled = false;
-                BtnEseguiCodice.Text = "Il file è stato generato correttamente!";
-            }
-        }
     }
 }

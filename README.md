@@ -23,7 +23,7 @@ FatturaElettronica.XMLNodes può essere scaricato anche come package [NuGet](htt
 Per installarlo è sufficiente utilizzare il seguente comando tramite il Package Manager (sostituire le x con il valore appropriato della versione richiesta).
 
 ```c#
-PM> Install-Package FatturaElettronica.XMLNodes -Version **1.x.x**
+PM> Install-Package FatturaElettronica.XMLNodes -Version 1.x.x
 ```
 
 Oppure, da riga di comando (CMD), con .NET Core:

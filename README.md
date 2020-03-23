@@ -4,7 +4,7 @@
 
 # FatturaElettronica.XMLNodes
 
-Libreria per la gestione dei nodi previsti nel formato **XML** (eXtensible Markup Language) della **Fattura Elettronica** basato sulle specifiche tecniche dell’Agenzia delle Entrate.
+Il progetto FatturaElettronica.XMLNodes nasce dall’esigenza di creare una libreria (scritta in C# .NET Standard 2.0) che permetta di rappresentare tutti i nodi previsti nel formato **XML** (eXtensible Markup Language) della **Fattura Elettronica** basato sulle specifiche tecniche dell’Agenzia delle Entrate. 
 
 
 

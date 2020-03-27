@@ -1,6 +1,8 @@
 ![FatturaElettronica.XMLNodes](https://etabetaweb.files.wordpress.com/2018/11/fattura-elettronica.jpg)
 
 
+**Stato build:** [![Build Status](https://dev.azure.com/etabetawebdev/FatturaElettronica/_apis/build/status/EtabetaWeb.FatturaElettronica.XMLNodes?branchName=master)](https://dev.azure.com/etabetawebdev/FatturaElettronica/_build/latest?definitionId=4&branchName=master)
+
 
 # FatturaElettronica.XMLNodes
 

@@ -36,6 +36,7 @@ namespace WinFormCShap
             bool esito = false;
             try
             {
+                FatturaElettronicaXMLNodes nodoPrincipale = new FatturaElettronicaXMLNodes();
                 FatturaElettronicaHeader overviewHeader = new FatturaElettronicaHeader();
                 DatiTrasmissione datiTrasmissione = new DatiTrasmissione();
                 IdTrasmittente idTrasmittente_111 = new IdTrasmittente();

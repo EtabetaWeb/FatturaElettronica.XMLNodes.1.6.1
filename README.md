@@ -18,6 +18,16 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo da
 
 
 
+# Guida per l'utilizzo
+
+Sullo store di Amazon è disponibile anche la guida per l'utilizzo come libreria NuGet. La guida si rivolge, in particolar modo, agli sviluppatori principianti che desiderano utilizzarla nei loro programmi. Nella guida sono contenuti i commenti al codice di esempio non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
+
+![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/copertina-guida-fattura-elettronica-xml-nodes.jpg) 
+
+[ACQUISTA ONLINE](https://amzn.to/2wKFdLl)
+
+
+
 # Installazione come package NuGet
 
 FatturaElettronica.XMLNodes può essere scaricato anche come package [NuGet](https://www.nuget.org/packages/FatturaElettronica.XMLNodes/). 

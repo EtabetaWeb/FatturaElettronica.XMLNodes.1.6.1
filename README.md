@@ -24,7 +24,7 @@ Sullo store di Amazon è disponibile anche la guida per l'utilizzo come libreria
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/copertina-guida-fattura-elettronica-xml-nodes.jpg) 
 
-[ACQUISTA ONLINE](https://amzn.to/2wKFdLl)
+**[[ACQUISTA ONLINE](https://amzn.to/2wKFdLl)]**
 
 
 

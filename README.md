@@ -18,6 +18,15 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo da
 
 
 
+# Organizzazione del repository
+
+- **AppCode**: file sorgenti della libreria;
+- **AppIcon**: file di icona;
+- **CodiceEsempio**: file con il codice di esempio di un'applicazione per l'utilizzo della libreria in versione C# e Visual Basic;
+- **Documentazione**: file di specifiche tecniche, rappresentazione tabellare ed elenco errori SDI;
+
+
+
 # Guida per l'utilizzo
 
 Sullo store di Amazon è disponibile anche la guida per l'utilizzo come libreria NuGet. La guida si rivolge, in particolar modo, agli sviluppatori principianti che desiderano utilizzarla nei loro programmi. Nella guida sono contenuti i commenti al codice di esempio non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.

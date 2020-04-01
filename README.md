@@ -31,7 +31,7 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo da
 
 # Guida per l'utilizzo
 
-In **esclusiva** sullo store **[Amazon](https://amzn.to/2wKFdLl)** ed in formato digitale, è disponibile la guida all'utilizzo della **libreria** **open source** per la generazione della **Fattura Elettronica**.
+In **esclusiva** sullo store **[Amazon](https://amzn.to/2UVpaT1)** ed in formato digitale, è disponibile la guida all'utilizzo della **libreria** **open source** per la generazione della **Fattura Elettronica**.
 
 **La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
 
@@ -41,7 +41,7 @@ Vi sono anche **informazioni utili e collegamenti al sito dell'Agenzia delle Ent
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/guida-fattura-xmlnodes-v15.jpg?w=616) 
 
-**[[ACQUISTA ONLINE](https://amzn.to/2wKFdLl)]**
+**[[ACQUISTA ONLINE](https://amzn.to/2UVpaT1)]**
 
 
 

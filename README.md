@@ -6,7 +6,7 @@
 
 # FatturaElettronica.XMLNodes
 
-Il progetto FatturaElettronica.XMLNodes nasce dall’esigenza di creare una libreria (scritta in C# .NET Standard 2.0) che permetta di rappresentare tutti i nodi previsti nel formato **XML** (eXtensible Markup Language) della **Fattura Elettronica** basato sulle specifiche tecniche dell’Agenzia delle Entrate. 
+Il progetto FatturaElettronica.XMLNodes nasce dall’esigenza di creare una **libreria** (scritta in C# .NET Standard 2.0) che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica** basato sulle specifiche tecniche dell’Agenzia delle Entrate. 
 
 
 
@@ -29,7 +29,13 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo da
 
 # Guida per l'utilizzo
 
-Sullo store di Amazon è disponibile anche la guida per l'utilizzo come libreria NuGet. La guida si rivolge, in particolar modo, agli sviluppatori principianti che desiderano utilizzarla nei loro programmi. Nella guida sono contenuti i commenti al codice di esempio non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
+In **esclusiva** sullo store **[Amazon](https://amzn.to/2wKFdLl)** ed in formato digitale, è disponibile la guida all'utilizzo della **libreria** **open source** per la generazione della **Fattura Elettronica**.
+
+La guida si rivolge, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi.
+
+Vi sono anche **informazioni utili e collegamenti al sito dell'Agenzia delle Entrate** che possono essere sfruttate da **utenti avanzati** che vogliano approfondire alcune tematiche relative alla Fatturazione Elettronica.
+
+È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/copertina-guida-fattura-elettronica-xml-nodes.jpg) 
 

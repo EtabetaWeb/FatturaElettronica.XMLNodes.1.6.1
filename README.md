@@ -4,9 +4,11 @@
 **STATO BUILD:** [![Build Status](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes/_apis/build/status/EtabetaWeb.FatturaElettronica.XMLNodes?branchName=master)](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes/_build/latest?definitionId=5&branchName=master) [[**VISUALIZZA DETTAGLI**](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes)]
 
 
-# FatturaElettronica.XMLNodes
+# Fattura Elettronica XMLNodes
 
-Il progetto FatturaElettronica.XMLNodes nasce dall’esigenza di creare una **libreria** (scritta in C# .NET Standard 2.0) che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica** basato sulle specifiche tecniche dell’Agenzia delle Entrate. 
+Il progetto nasce dall’esigenza di creare una **libreria** che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica**. 
+
+Basata sulla **versione 1.5** delle specifiche tecniche dell’**Agenzia delle Entrate**, la **libreria** è sviluppata in **C# e NET Standard 2.0**.
 
 
 
@@ -31,13 +33,13 @@ Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo da
 
 In **esclusiva** sullo store **[Amazon](https://amzn.to/2wKFdLl)** ed in formato digitale, è disponibile la guida all'utilizzo della **libreria** **open source** per la generazione della **Fattura Elettronica**.
 
-La guida si rivolge, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi.
+**La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
 
 Vi sono anche **informazioni utili e collegamenti al sito dell'Agenzia delle Entrate** che possono essere sfruttate da **utenti avanzati** che vogliano approfondire alcune tematiche relative alla Fatturazione Elettronica.
 
 È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
 
-![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/copertina-guida-fattura-elettronica-xml-nodes.jpg) 
+![CopertinaGuida](https://etabetaweb.files.wordpress.com/2020/03/guida-fattura-xmlnodes-v15.jpg?w=616) 
 
 **[[ACQUISTA ONLINE](https://amzn.to/2wKFdLl)]**
 
@@ -137,3 +139,25 @@ Oppure, dalla Console di Gestione Pacchetti in Visual Studio.
     ser.Serialize(new System.IO.StreamWriter(file, new System.Text.UTF8Encoding()), nodoPrincipale, ns);
     file.Close();
 ```
+
+
+
+# Note al codice di esempio
+
+La soluzione comprende un esempio per utilizzare, tramite code-behind, i metodi e le proprietà della libreria.
+
+**Il codice dei esempio non è esaustivo, in quanto non utilizza tutti i metodi della classe, e vi rimando alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti**.
+
+Il codice principale si trova nella funzione GeneraXML e i parametri sono passati direttamente da codice ma possono essere passati anche tramite campi TextBox con le opportune modifiche.
+
+La classe prevede due metodi principali "FatturaHeader" e "FatturaBoody". Questi sono i due nodi principali del file XML che racchiudono tutti i nodi figlio contenenti le informazioni previste dalla fattura elettronica.
+
+**Dal codice di esempio è possibile comprendere come**:
+
+- aggiungere un nodo con occorrenza singola;
+- assegnare il valore alla proprietà di un nodo con occorrenza singola;
+- assegnare il nodo figlio al nodo padre;
+- aggiungere un nodo con occorrenza multipla;
+- assegnazione delle proprietà al nodo con occorrenza multipla;
+
+Inoltre, il codice serializza il file XML e lo salva sul computer.

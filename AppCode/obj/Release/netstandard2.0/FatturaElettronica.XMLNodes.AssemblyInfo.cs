@@ -17,11 +17,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Libreria per la gestione dei nodi previsti nel formato XML (eXtensible Markup Lan" +
     "guage) della Fattura Elettronica basato sulle specifiche tecniche dell’Agenzia d" +
     "elle Entrate.")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.6.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.6.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fattura Elettronica XML Nodes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FatturaElettronica.XMLNodes")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.5.2.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.6.1.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes.git")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 

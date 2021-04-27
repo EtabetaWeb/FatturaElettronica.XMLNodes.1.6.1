@@ -18,6 +18,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCShap", "CodiceEsemp
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinFormVB", "CodiceEsempio\WinFormVB\WinFormVB.vbproj", "{FCB7527C-A487-4ADA-8A2D-D38704CA0C9E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Immagini Condivise", "Immagini Condivise", "{034A8DB4-9557-40DF-8A0A-3E39EB2ED5DD}"
+	ProjectSection(SolutionItems) = preProject
+		Documentazione\Immagini Condivise\fattura-elettronica.jpg = Documentazione\Immagini Condivise\fattura-elettronica.jpg
+		Documentazione\Immagini Condivise\libro-fatturaelettronica-xmlnodes-1-6-1.jpg = Documentazione\Immagini Condivise\libro-fatturaelettronica-xmlnodes-1-6-1.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +48,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4E84F9F6-7388-4B4B-BAAC-D5567D4529FB} = {CFD1A840-FBFA-482B-88CD-56C6C25AEF61}
+		{034A8DB4-9557-40DF-8A0A-3E39EB2ED5DD} = {CFD1A840-FBFA-482B-88CD-56C6C25AEF61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B2957A1-8076-4D3B-B2C4-0F5B488CB104}

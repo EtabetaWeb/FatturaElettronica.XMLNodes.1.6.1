@@ -16,7 +16,7 @@ Basata sulla **versione 1.5** delle specifiche tecniche dell’**Agenzia delle E
 
 Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo dall'Agenzia delle Entrate, fare riferimento alla seguente tabella di branching:
 
-- **Master**: basato sul documento "Allegato A - Specifiche Tecniche Versione 1.5";
+- **Master**: basato sul documento "Allegato A - Specifiche Tecniche Versione 1.6.1";
 
 
 

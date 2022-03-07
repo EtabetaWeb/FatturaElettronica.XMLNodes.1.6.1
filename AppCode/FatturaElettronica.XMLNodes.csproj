@@ -7,7 +7,7 @@
     <Company>Andrea (EtabetaWeb) Cervi</Company>
     <Product>Fattura Elettronica XML Nodes</Product>
     <Description>Libreria per la gestione dei nodi previsti nel formato XML (eXtensible Markup Language) della Fattura Elettronica basato sulle specifiche tecniche dell’Agenzia delle Entrate.</Description>
-    <Copyright>Copyright © 2020 Andrea (EtabetaWeb) Cervi</Copyright>
+    <Copyright>Copyright © 2021 Andrea (EtabetaWeb) Cervi</Copyright>
     <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes</PackageProjectUrl>
     <PackageIcon>etabetaweb.png</PackageIcon>
@@ -18,6 +18,7 @@
     <AssemblyVersion>1.6.1.0</AssemblyVersion>
     <FileVersion>1.6.1.0</FileVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

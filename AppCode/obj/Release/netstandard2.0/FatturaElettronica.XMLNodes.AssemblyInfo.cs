@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andrea (EtabetaWeb) Cervi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2020 Andrea (EtabetaWeb) Cervi")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2021 Andrea (EtabetaWeb) Cervi")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Libreria per la gestione dei nodi previsti nel formato XML (eXtensible Markup Lan" +
     "guage) della Fattura Elettronica basato sulle specifiche tecniche dell’Agenzia d" +
     "elle Entrate.")]

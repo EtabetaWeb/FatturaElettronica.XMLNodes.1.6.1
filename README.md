@@ -1,53 +1,53 @@
 ![FatturaElettronica.XMLNodes](https://etabetaweb.files.wordpress.com/2018/11/fattura-elettronica.jpg)
 
 
-**STATO BUILD:** [![Build Status](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes/_apis/build/status/EtabetaWeb.FatturaElettronica.XMLNodes?branchName=master)](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes/_build/latest?definitionId=5&branchName=master) [[**VISUALIZZA DETTAGLI**](https://dev.azure.com/etabetawebdev/FatturaElettronica.XMLNodes)]
+# Fattura Elettronica XMLNodes versione 1.6.1
 
-
-# Fattura Elettronica XMLNodes
-
-Il progetto nasce dall’esigenza di creare una **libreria** che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica**. 
-
-Basata sulla **versione 1.6.1** delle specifiche tecniche dell’**Agenzia delle Entrate**, la **libreria** è sviluppata in **C# e NET Standard 2.0**.
+**La versione 1.6.1 della libreria FatturaElettronica.XMLNodes è stata deprecata a favore della versione 1.7.1 (sviluppata in C# .NET Standard 2.0). Il codice open source viene comunque mantenuto on line con la finalità di studio e retrocompatibilità con le applicazioni che ne fanno ancora uso.**
 
 
 
-# Nota
-
-Per seguire l'evoluzione delle varie specifiche tecniche rilasciate nel tempo dall'Agenzia delle Entrate, fare riferimento alla seguente tabella di branching:
-
-- **Master**: basato sul documento "Allegato A - Specifiche Tecniche Versione 1.6.1";
+Il progetto nasce dall’esigenza di creare una **libreria** che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica**. Basata sulla **versione 1.6.1** delle specifiche tecniche  dell’**Agenzia delle Entrate**, la **libreria** è sviluppata in **C# e NET Standard 2.0**.
 
 
 
 # Organizzazione del repository
 
 - **AppCode**: file sorgenti della libreria;
+
 - **AppIcon**: file di icona;
+
 - **CodiceEsempio**: file con il codice di esempio di un'applicazione per l'utilizzo della libreria in versione C# e Visual Basic;
+
 - **Documentazione**: file di specifiche tecniche, rappresentazione tabellare ed elenco errori SDI;
 
+  
 
+# Note al codice di esempio
 
-# Guida per l'utilizzo
+La soluzione comprende un esempio per utilizzare, tramite code-behind, i metodi e le proprietà della libreria.
 
-In **esclusiva** sullo store **[Amazon](https://amzn.to/3u7Dg44)** ed in formato digitale, è disponibile la guida all'utilizzo della **libreria** **open source** per la generazione della **Fattura Elettronica**.
+**Il codice di esempio non è esaustivo, in quanto non utilizza tutti i metodi della libreria. Si prega di fare riferimento alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti**.
 
-**La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
+Il codice principale si trova nella funzione GeneraXML e i parametri sono passati direttamente da codice ma possono essere passati anche tramite campi TextBox con le opportune modifiche.
 
-Vi sono anche **informazioni utili e collegamenti al sito dell'Agenzia delle Entrate** che possono essere sfruttate da **utenti avanzati** che vogliano approfondire alcune tematiche relative alla Fatturazione Elettronica.
+La classe prevede due metodi principali "FatturaHeader" e "FatturaBoody". Questi sono i due nodi principali del file XML che racchiudono tutti i nodi figlio contenenti le informazioni previste dalla fattura elettronica.
 
-È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
+**Dal codice di esempio è possibile comprendere come**:
 
-![CopertinaGuida](https://github.com/EtabetaWeb/FatturaElettronica.XMLNodes/blob/master/Documentazione/Immagini%20Condivise/libro-fatturaelettronica-xmlnodes-1-6-1.jpg) 
+- aggiungere un nodo con occorrenza singola;
+- assegnare il valore alla proprietà di un nodo con occorrenza singola;
+- assegnare il nodo figlio al nodo padre;
+- aggiungere un nodo con occorrenza multipla;
+- assegnazione delle proprietà al nodo con occorrenza multipla;
 
-**[[ACQUISTA ONLINE](https://amzn.to/3u7Dg44)]**
+Inoltre, il codice serializza il file XML e lo salva sul computer.
 
 
 
 # Installazione come package NuGet
 
-FatturaElettronica.XMLNodes può essere scaricato anche come package [NuGet](https://www.nuget.org/packages/FatturaElettronica.XMLNodes/). 
+FatturaElettronica.XMLNodes può essere scaricato anche come package [NuGet](https://www.nuget.org/packages/FatturaElettronica.XMLNodes/1.6.1). 
 
 Per installarlo è sufficiente utilizzare il seguente comando tramite il Package Manager (sostituire le x con il valore appropriato della versione richiesta).
 
@@ -65,99 +65,19 @@ Oppure, dalla Console di Gestione Pacchetti in Visual Studio.
 
 
 
-# Utilizzo della libreria
+# Guida per l'utilizzo
 
-### Creazione dell'istanza della classe
+![CopertinaGuida](https://etabetaweb.files.wordpress.com/2021/05/cover-fatturaelettronica.xmlnodes-v1.6.1.jpg?w=640)
 
-```c#
-    FatturaElettronicaXMLNodes _nodoPrincipale = new FatturaElettronicaXMLNodes();
-```
+In **esclusiva** sullo store **[Amazon](https://amzn.to/3u7Dg44)** ed in **formato digitale**, la **guida all'utilizzo della libreria** open source per la generazione della Fattura Elettronica.
 
-### Aggiunta di un metodo con occorrenza singola
+**La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
 
-```c#
-    IdTrasmittente _idTrasmittente = new IdTrasmittente();
-```
+Vi sono anche **informazioni utili** che possono essere sfruttate da **utenti avanzati** che vogliono **approfondire alcune tematiche relative alla Fatturazione Elettronica**.
 
-### Assegnazione del valore ad una proprietà del metodo
+È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
 
-```c#
-    _idTrasmittente.IdPaese = "IT";
-```
-
-### Assegnazione del metodo figlio al metodo padre
-
-```c#
-    datiTrasmissione.IdTrasmittente = _idTrasmittente;
-```
-
-### Aggiunta di un metodo con occorrenza multipla
-
-```c#
-    DatiCassaPrevidenziale datiCassaPrevidenziale = new DatiCassaPrevidenziale();
-    List<DatiCassaPrevidenziale> datiCassaPrevidenzialeList = new List<DatiCassaPrevidenziale>();
-```
-
-### Assegnazione delle proprietà al nodo con occorrenza multipla
-
-```c#
-    datiCassaPrevidenziale.TipoCassa = "";
-    datiCassaPrevidenziale.AlCassa = "";
-    [...]
-    datiCassaPrevidenzialeList.Add(datiCassaPrevidenziale);
-    datiGeneraliDocumento.DatiCassaPrevidenziale = datiCassaPrevidenzialeList;
-```
-
-### Serializzazione finale dei nodi
-
-```c#
-    XmlRootAttribute XmlRoot = new XmlRootAttribute();
-    XmlRoot.Namespace = "http://www.fatturapa.gov.it/sdi/fatturapa/v1.2";
-    XmlAttributes myxmlAttribute = new XmlAttributes();
-    myxmlAttribute.XmlRoot = XmlRoot;
-    XmlAttributeOverrides xmlAttributeOverrides = new XmlAttributeOverrides();
-    xmlAttributeOverrides.Add(typeof(FatturaElettronicaXMLNodes), myxmlAttribute);
-    // esegue la pulizia degli appributi FatturaElettronicaHeader e FatturaElettronicaBody
-    XmlAttributes emptyNsAttribute = new XmlAttributes();
-    XmlElementAttribute xElement1 = new XmlElementAttribute();
-    xElement1.Namespace = "";
-    emptyNsAttribute.XmlElements.Add(xElement1);
-    xmlAttributeOverrides.Add(typeof(FatturaElettronicaXMLNodes), "FatturaElettronicaHeader", emptyNsAttribute);
-    xmlAttributeOverrides.Add(typeof(FatturaElettronicaXMLNodes), "FatturaElettronicaBody", emptyNsAttribute);
-    // specifica la versione di trasmissione se verso PA o Privato
-    nodoPrincipale.versione = "FPA12";
-    // serializza i nodi ed esegue l'override del nodo principale per aggiungere il tag "pX"
-    XmlSerializer ser = new XmlSerializer(nodoPrincipale.GetType(), xmlAttributeOverrides);
-    ser = new XmlSerializer(nodoPrincipale.GetType(), new XmlRootAttribute("pX"));
-    // aggiunge gli attributi
-    XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-    ns.Add("ds", "http://www.w3.org/2000/09/xmldsig#");
-    ns.Add("p", "http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2");
-    ns.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");
-    var path = percorso + nome_file;
-    System.IO.FileStream file = System.IO.File.Create(path);
-    ser.Serialize(new System.IO.StreamWriter(file, new System.Text.UTF8Encoding()), nodoPrincipale, ns);
-    file.Close();
-```
+**[[ACQUISTA ONLINE](https://amzn.to/3u7Dg44)]**
 
 
 
-# Note al codice di esempio
-
-La soluzione comprende un esempio per utilizzare, tramite code-behind, i metodi e le proprietà della libreria.
-
-**Il codice dei esempio non è esaustivo, in quanto non utilizza tutti i metodi della classe, e vi rimando alle specifiche tecniche dell'Agenzia delle Entrate per l'elenco completo dei nodi previsti**.
-
-Il codice principale si trova nella funzione GeneraXML e i parametri sono passati direttamente da codice ma possono essere passati anche tramite campi TextBox con le opportune modifiche.
-
-La classe prevede due metodi principali "FatturaHeader" e "FatturaBoody". Questi sono i due nodi principali del file XML che racchiudono tutti i nodi figlio contenenti le informazioni previste dalla fattura elettronica.
-
-**Dal codice di esempio è possibile comprendere come**:
-
-- aggiungere un nodo con occorrenza singola;
-- assegnare il valore alla proprietà di un nodo con occorrenza singola;
-- assegnare il nodo figlio al nodo padre;
-- aggiungere un nodo con occorrenza multipla;
-- assegnazione delle proprietà al nodo con occorrenza multipla;
-
-Inoltre, il codice serializza il file XML e lo salva sul computer.

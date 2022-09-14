@@ -5,7 +5,7 @@
 
 **La versione 1.6.1 della libreria FatturaElettronica.XMLNodes è stata deprecata a favore della versione 1.7.1 (sviluppata in C# .NET Standard 2.0). Il codice open source viene comunque mantenuto on line con la finalità di studio e retrocompatibilità con le applicazioni che ne fanno ancora uso.**
 
-
+------
 
 Il progetto nasce dall’esigenza di creare una **libreria** che permetta di rappresentare tutti i **nodi previsti nel formato XML** (eXtensible Markup Language) della **Fattura Elettronica**. Basata sulla **versione 1.6.1** delle specifiche tecniche  dell’**Agenzia delle Entrate**, la **libreria** è sviluppata in **C# e NET Standard 2.0**.
 

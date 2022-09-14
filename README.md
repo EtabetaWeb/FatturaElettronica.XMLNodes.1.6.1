@@ -69,7 +69,7 @@ Oppure, dalla Console di Gestione Pacchetti in Visual Studio.
 
 ![CopertinaGuida](https://etabetaweb.files.wordpress.com/2021/05/cover-fatturaelettronica.xmlnodes-v1.6.1.jpg?w=640)
 
-In **esclusiva** sullo store **[Amazon](https://amzn.to/3u7Dg44)** ed in **formato digitale**, la **guida all'utilizzo della libreria** open source per la generazione della Fattura Elettronica.
+In **esclusiva** sullo store **[Amazon](https://amzn.to/3u7Dg44)** è disponibile, in **formato digitale**, la **guida all'utilizzo della libreria** open source per la generazione della Fattura Elettronica.
 
 **La guida si rivolge**, principalmente, agli **sviluppatori principianti** che desiderano utilizzare la libreria nei loro programmi. Sono contenuti i **commenti al codice di esempio** non altrimenti recuperabili dai sorgenti presenti nel repository di GitHub.
 
@@ -77,7 +77,37 @@ Vi sono anche **informazioni utili** che possono essere sfruttate da **utenti av
 
 È importante che il lettore abbia **familiarità con lo sviluppo del software** e con i concetti base della **programmazione ad oggetti**.
 
+
+
 **[[ACQUISTA ONLINE](https://amzn.to/3u7Dg44)]**
 
 
+
+**Tra gli argomenti trattati:**
+
+- Termini e condizioni per la copia, distribuzione e modifica del codice
+- La fattura elettronica
+- La fattura elettronica e le differenze con la fattura cartacea
+- I vantaggi della fattura elettronica
+- Le informazioni obbligatorie
+- La struttura del file XML
+- XML: visione generale
+- Come trasmettere il file XML
+- Variazioni alle specifiche tecniche presenti nella versione 1.6.1
+- Download del codice sorgente da GitHub
+- Organizzazione del repository
+- Utilizzo del progetto in Visual Studio
+- Aggiunta dei riferimenti al progetto
+- Download della libreria da NuGet
+- Utilizzo della libreria
+- Aggiunta dell’istanza alla classe
+- Utilizzo dei metodi e delle proprietà della classe
+- Aggiunta di un metodo con occorrenza singola
+- Assegnazione del valore ad una proprietà del metodo
+- Assegnazione del metodo figlio al metodo padre
+- Aggiunta di un metodo con occorrenza multipla
+- Assegnazione delle proprietà al nodo con occorrenza multipla
+- Serializzazione finale dei nodi
+- Codice di esempio in Visual Basic
+- Codice di esempio in C#
 
